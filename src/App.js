@@ -9,7 +9,7 @@ export default function App() {
     const inputRef = useRef(null);
     const scene = useSelector(state => state.scene.value);
     const dispatch = useDispatch()
-    console.log(scene, "-------")
+
     useEffect(() => {
         if (scene === "concentration") {
             return
@@ -38,11 +38,6 @@ export default function App() {
                     break
                 case 3:
                     simulateKeydown("d")
-
-                    setTimeout(() => {
-                        simulateKeydown("f")
-                        dispatch(setScene("concentration"))
-                    }, 5000)
                     break
                 default:
                     break
@@ -82,6 +77,12 @@ export default function App() {
                     break
                 case 3:
                     simulateKeydown("d")
+
+
+                    setTimeout(() => {
+                        simulateKeydown("f")
+                        dispatch(setScene("relaxation"))
+                    }, 5000)
                     break
                 default:
                     break

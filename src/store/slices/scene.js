@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  value: "relaxation",
+  value: "concentration",
 }
 
 export const sceneSlice = createSlice({
