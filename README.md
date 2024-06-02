@@ -1,3 +1,7 @@
+# EEG-Mental-State-Monitoring-Client
+
+The "EEG-Mental-State-Monitoring-Client" project is a client application for the EEG Mental State Monitoring system. It is built using React and provides a user interface to interact with the EEG data analysis framework. The client allows for real-time visualization of EEG data, setting up and managing sessions, and viewing analysis results. The project includes instructions for running and building the app using common commands like npm start and npm run build.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
